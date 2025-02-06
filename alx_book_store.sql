@@ -1,8 +1,7 @@
 
 CREATE DATABASE alx_book_store;
-USE alx_book_store;
 
-SELECT database();
+
 CREATE TABLE author(
     author_id int AUTO_INCREMENT PRIMARY key,
     author_name VARCHAR(215)
