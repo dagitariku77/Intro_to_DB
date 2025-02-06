@@ -1,3 +1,4 @@
+SHOW DATABASEs;
 
 
 SHOW DATABASES;
@@ -37,7 +38,7 @@ CREATE table orders(
 
 SELECT alx_book_store;
 
-cREATE TABLE Order_Details (
+CREATE TABLE Order_Details (
     orderdetailid INT AUTO_INCREMENT PRIMARY KEY,
     order_id INT,
     book_id INT,
@@ -45,3 +46,8 @@ cREATE TABLE Order_Details (
     FOREIGN KEY (order_id) REFERENCES Orders(order_id),
     FOREIGN KEY (book_id) REFERENCES Books(book_id)
 );
+select alx-book_store;
+use alx_book_store;
+SELECT DATABASE()
+
+SELECT *from books;
